@@ -7,5 +7,5 @@ Wit\Errorview\ErrorviewServiceProvider::class,
 
 Publish views
 ```sh
-$ php artisan vendor:publish  --provider="Signchef\Errorview\ErrorviewServiceProvider" --tag=views
+$ php artisan vendor:publish  --provider="Wit\Errorview\ErrorviewServiceProvider" --tag=views
 ```
