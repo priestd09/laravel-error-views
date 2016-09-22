@@ -1,12 +1,20 @@
 {
     "name": "wit/errorview",
-    "description": "Views for server errors",
+    "description": "Views for request errors",
+    "license": "MIT",
     "authors": [
         {
             "name": "David",
             "email": "priestd09@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Wit\\Errorview\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
