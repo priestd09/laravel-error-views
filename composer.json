@@ -1,0 +1,12 @@
+{
+    "name": "wit/errorview",
+    "description": "Views for server errors",
+    "authors": [
+        {
+            "name": "David",
+            "email": "priestd09@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
